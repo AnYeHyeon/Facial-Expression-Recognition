@@ -45,21 +45,20 @@ datagen = ImageDataGenerator(
 )
 ```
 
-데이터셋을 핸들링하는 코드가 궁금하시다면 [여기](./utils.py)를 눌러주세요.
+데이터셋을 핸들링하는 코드가 궁금하시다면 [여기]()를 눌러주세요.
 
 ## 생성된 이미지 데이터셋 결과
 
 <center>
 
-![결과물](./docs/dataset_result.png)
+![결과물]()
 
 </center>
 
 `./dataset/dataset.zip` 파일에 148,355장의 이미지 데이터(96\*96)가 압축되어 들어있으며, 직접 [다운로드](https://github.com/kitae0522/Facial-Expression-Recognition/raw/main/dataset/dataset.zip)하실 수 있고, wget를 이용해서 다운로드 하실 수 있습니다.
 
 ```shell
-$ wget -O dataset.zip https://github.com/kitae0522/Facial-Expression-Recognition/raw/main/dataset/dataset.zip
-```
+$ wget -O dataset.zip 
 
 # 학습 결과
 
@@ -67,16 +66,12 @@ $ wget -O dataset.zip https://github.com/kitae0522/Facial-Expression-Recognition
 
 <center>
 
-![학습 결과](./docs/model_predict.png)
+![학습 결과]()
 
 </center>
 
-| <img src="./docs/model_acc.png" width="480px"> | <img src="./docs/model_loss.png" width="480px"> |
+| <img src="" width="480px"> | <img src="" width="480px"> |
 | ---------------------------------------------- | ----------------------------------------------- |
 | Model accuracy                                 | Model loss                                      |
 
 # Give me feedback!
-
-- E-Mail : kitae040522@gmail.com
-
-컴퓨터 비전을 공부하고 있는 고등학생입니다. 위 이메일이나 이슈로 피드백을 남겨주시면 감사하겠습니다.
